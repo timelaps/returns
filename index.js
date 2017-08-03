@@ -1,0 +1,11 @@
+var passed = module.exports = require('./passed');
+passed.array = require('./array');
+passed.baseType = require('./base-type');
+passed.emptyString = require('./empty-string');
+passed.false = require('./false');
+passed.first = require('./first');
+passed.object = require('./object');
+passed.null = require('./null');
+passed.self = require('./self');
+passed.second = require('./second');
+passed.true = require('./true');
