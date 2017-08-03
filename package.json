@@ -1,0 +1,27 @@
+{
+  "name": "@timelaps/returns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "share": "npm version patch && git push && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timelaps/returns.git"
+  },
+  "keywords": [],
+  "author": "Michael McLaughlin <michael@gospecless.com> (https://gospecless.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timelaps/returns/issues"
+  },
+  "homepage": "https://github.com/timelaps/returns#readme",
+  "devDependencies": {
+    "@timelaps/batterie": "^1.0.70"
+  },
+  "dependencies": {
+    "@timelaps/is": "^1.0.1"
+  }
+}
